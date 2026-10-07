@@ -1,11 +1,11 @@
-defmodule ACW.D0 do
-  def p1(text \\ "input.txt") do
-    read(text)
-    |> parse()
-    |> assign_scores()
-    |> evaluate()
-    |> Enum.sum()
-  end
+defmodule ACW.P1 do
+  def answer(text \\ "input.txt"),
+    do:
+      read(text)
+      |> parse()
+      |> assign_scores()
+      |> evaluate()
+      |> Enum.sum()
 
   defp evaluate(map) do
     for word <- map.rest do
@@ -48,4 +48,4 @@ defmodule ACW.D0 do
   end
 end
 
-ACW.D0.p1() |> IO.inspect()
+ACW.D1.answer() |> IO.inspect()
