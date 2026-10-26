@@ -1,21 +1,5 @@
-# Acw
+# ACW
 
-**TODO: Add description**
+**Solutions to Autumn Code Walk problems**
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `acw` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:acw, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/acw>.
-
+See https://autumncodewalk.github.io
