@@ -1,4 +1,4 @@
-defmodule ACW.P0 do
+defmodule Acw.P0 do
   def answer(text \\ "input.txt"),
     do:
       read(text)
@@ -43,9 +43,8 @@ defmodule ACW.P0 do
   end
 
   defp read(text) do
-    File.read!(text)
+    Path.join(__DIR__, text)
+    |> File.read!()
     |> String.split("\n", trim: true)
   end
 end
-
-ACW.P0.answer() |> IO.inspect()
