@@ -25,3 +25,4 @@ acw-*.tar
 .DS_Store
 
 *.txt
+!lib/acw/p0/test.txt
